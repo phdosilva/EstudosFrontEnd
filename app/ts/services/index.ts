@@ -1,1 +1,1 @@
-export * from './NegociacaoServer'
+export * from './NegociacaoService'
