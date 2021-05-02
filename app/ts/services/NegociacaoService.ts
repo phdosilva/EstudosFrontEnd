@@ -1,7 +1,7 @@
 import { Negociacao, NegociacaoParcial } from "../models/index";
 
 export class NegociacaoService {
-  obterNegociacoes(handler: HandlerFunction): Promise<Negociacao[]> {
+  obterNegociacoes(handler: HandlerFunction): Promise<any> {
     return fetch("http://localhost:8080/dados")
       .then((res) => handler(res))
       .then((res) => res.json())
