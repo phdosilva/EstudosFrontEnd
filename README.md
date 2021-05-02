@@ -8,6 +8,7 @@ Cada branch contém um conteúdo diferente.
 ## Configurando uma nova pasta de estudos
 ``` bash
 cd <repo>
-git remote add upstream https://github.com/<organization>/<repo>.git
-git fetch upstream
+git init
+git remote add <branch-name> https://github.com/phdosilva/EstudosFrontEnd.git
+git fetch <branch-name>
 ```
