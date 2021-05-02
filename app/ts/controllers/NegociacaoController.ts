@@ -46,6 +46,10 @@ export class NegociacaoController {
       data.getDay() != DiaDaSemana.Domingo
     );
   }
+
+  importaDados() {
+
+  }
 }
 
 enum DiaDaSemana {
